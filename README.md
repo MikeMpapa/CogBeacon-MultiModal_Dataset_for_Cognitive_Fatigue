@@ -3,4 +3,4 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 
 
 
-CogBeacon Data Collection Platform - [https://github.com/MikeMpapa/CogBeacon-WCST_interface/tree/master/src](The WCST Interface)
+CogBeacon Data Collection Platform - [https://github.com/MikeMpapa/CogBeacon-WCST_interface/tree/master/src] (The WCST Interface)
