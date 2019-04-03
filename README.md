@@ -3,4 +3,29 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 
 
 
-CogBeacon Data Collection Platform - [The WCST Interface](https://github.com/MikeMpapa/CogBeacon-WCST_interface/)
+# CogBeacon Data Collection Platform can be found @ [The WCST Interface](https://github.com/MikeMpapa/CogBeacon-WCST_interface/)
+
+## Dataset Detail
+
+EEG Data:
+2 - line description
+filename structures
+Signals : name frequency, formulas
+
+Facial:
+2- line description- 68 keypoints + 4 corners for bounding box
+frame rate
+extraction algorithm 
+filename structure
+
+Fatigue self report:
+2 line description: ie. how it was obtained
+filename structure
+
+User Performance:
+2-line description
+explain csv columns
+
+Source code + ML analysis:
+link to: datasets used for ML analysis (balanced+unbalanced)
++analysis code: feature extraction +modeling, dataset creation
