@@ -11,7 +11,7 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 As mentioned above, the dataset consists of 4 folders; EEG, face_keypoints, fatigue_self_report, and user_performance. Below, we explain the contents of each folder and the way the data is organized.
 Please refer to our paper **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue (insert link to publication)**, for more details about the dataset and data collection methodology.
 ### EEG Data:
-##### File Name structure
+##### File name structure:
 As mentioned above, there are 76 sessions and data from each session is stored in a separate folder. This folder is named "user_user-id_version-type". For example, the folder name "user_0_v_m" implies the folder belongs to user with ID 0 and version type "v_m". each of these folders consists of individual files for each round.
 
 The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/). The headset has four electrodes, two over the prefrontal lobe and two behind the ears. The data set consists of:
