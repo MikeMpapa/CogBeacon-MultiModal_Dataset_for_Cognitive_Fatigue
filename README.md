@@ -20,8 +20,8 @@ The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/).
   <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Absolute%20Frequency%20Band.png"></p>
 * **Relative Frequency Bands (R):** &gamma;, &beta;, &alpha;, &theta; and &delta; at sampling frequency of 10 Hz. The relative band powers are calculated by dividing the absolute linear-scale power in one band over the sum of the absolute linear-scale powers in all bands. 
   <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Relative%20Frequency%20Band.png"></p>
-* **Session Score for each Frequency band (S)**
-* **Signal Quality Indicator**
+* **Session Score for each Frequency band (S):** A value computed by comparing the current value of a band power to its history in sampling frequency of 10 Hz.
+* **Signal Quality Indicator:** An integer value from 1 (optimal quality) to 4 (very bad quality).
 
 ### 2. Facial:
 2- line description- 68 keypoints + 4 corners for bounding box
