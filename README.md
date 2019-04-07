@@ -11,7 +11,7 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 As mentioned above, the dataset consists of 4 folders; EEG, face_keypoints, fatigue_self_report, and user_performance. Below, we explain the contents of each folder and the way the data is organized.
 Please refer to our paper **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue (insert link to publication)**, for more details about the dataset and data collection methodology.
 ### 1. EEG Data:
-**Filename structure:** There are 76 sessions and data from each session is stored in a separate folder. This folder is named "user_<userID>_<StimuliType>_<GameMode>". For example, the folder name "user_0_v_m" implies the folder belongs to user with ID 0 using the visual stimuli and that data were collected by a modified version of the WCST task (V1 or V2). If the user_id is a single integer and the game mode is characterised by the letter "m" it means that data were recorder using the V1 WCST version. If user_id is followed by the letter "b" and the game mode is characterised as "m" it means that the folder contains data captured using V2 version of the WCST. Finally if game mode is characterised by the letter "o" it means that data collection was based on replicating the rules of the original WCST. Bellow are explained the values of the different flags in detail:
+**Filename structure:** There are 76 sessions and data from each session is stored in a separate folder. This folder is named "user_\<userID\> _ \<StimuliType\> _ \<GameMode\>". For example, the folder name "user_0_v_m" implies the folder belongs to user with ID 0 using the visual stimuli and that data were collected by a modified version of the WCST task (V1 or V2). If the user_id is a single integer and the game mode is characterised by the letter "m" it means that data were recorder using the V1 WCST version. If user_id is followed by the letter "b" and the game mode is characterised as "m" it means that the folder contains data captured using V2 version of the WCST. Finally if game mode is characterised by the letter "o" it means that data collection was based on replicating the rules of the original WCST. Bellow are explained the values of the different flags in detail:
 
 - UserID: 
 
@@ -23,7 +23,7 @@ Please refer to our paper **CogBeacon: A Multi-Modal Dataset and Data-Collection
 
 - GameMode: "o"=simulation of the original WCST test, "m"=modified version of the WCST
 
-Each of these folders consists of individual files collected during each round, ie a single answer provided by the user. The file name encoding is as follows: <roundID_under_the_same_rule>_<roundID>. For example file 3_17 containes the data captured during the 17th round of the game, which was the 3rd round under the same decision rule.
+Each of these folders consists of individual files collected during each round, ie a single answer provided by the user. The file name encoding is as follows: \<roundID_under_the_same_rule\> _ \<roundID\>. For example file 3_17 containes the data captured during the 17th round of the game, which was the 3rd round under the same decision rule.
 
 The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/). The headset has four electrodes, two over the prefrontal lobe and two behind the ears. The data set consists of:
 * **Raw EEG :** at a sampling frequency of 220 Hz
