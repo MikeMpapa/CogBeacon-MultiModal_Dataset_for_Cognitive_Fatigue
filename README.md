@@ -17,9 +17,9 @@ As mentioned above, there are 76 sessions and data from each session is stored i
 The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/). The headset has four electrodes, two over the prefrontal lobe and two behind the ears. The data set consists of:
 * **Raw EEG :** at a sampling frequency of 220 Hz
 * **Absolute Frequency Bands (A):** gamma 32-100 Hz (*&gamma;*), beta 13-32 Hz (*&beta;*), alpha 8-13 Hz (*&alpha;*), theta 4-8 Hz (*&theta;*) and delta 0.5-4Hz (*&delta;*) at sampling frequency of 10 Hz. The absolute band power for a given frequency range is the logarithm of the sum of the Power Spectral Density of the EEG data over that frequency range.
-<p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-   MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Absolute%20Frequency%20Band.png"></p>
+  <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-   MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Absolute%20Frequency%20Band.png"></p>
 * **Relative Frequency Bands (R):** &gamma;, &beta;, &alpha;, &theta; and &delta; at sampling frequency of 10 Hz. The relative band powers are calculated by dividing the absolute linear-scale power in one band over the sum of the absolute linear-scale powers in all bands. 
-<p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Relative%20Frequency%20Band.png"></p>
+  <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Relative%20Frequency%20Band.png"></p>
 * **Session Score for each Frequency band (S)**
 * **Signal Quality Indicator**
 
