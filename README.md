@@ -38,7 +38,7 @@ For every round of every session, the system logs a set of metrics and scores re
 * **Question number:** An integer value indicating the current question number under a specific rule type.
 * **Level:** An integer value indicating the current level of the test. It indicates number of possible choices offered by the system: 2,3,4 or 5.
 * **Score:** An indicative round-based user score computed as:
-  <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Round%20Based%20Score.png"></p>
+  <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Round%20Based%20Score.png" width="350" height=80></p>
 * **Stimuli:** The type of the correct stimuli: color, shape or number.
 * **Stimuli Type:** The value of the correct stimuli:
   * If color: green, yellow, blue, red or magenta.
