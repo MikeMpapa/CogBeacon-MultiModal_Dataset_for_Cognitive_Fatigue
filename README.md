@@ -45,11 +45,10 @@ For every round of every session, the system logs a set of metrics and scores re
   * If shape: triangle, star, cross, circle or heart.
   * If number: one, two, three, four or five.
 * **Response:** A binary flag that indicating if user response was correct in a given round.
-* **Persistence:** 
 * **Time:** User’s response time at every round **in seconds**.
 * **Correct:** The total number of correct answers.
 * **NON-PER Errors:** The cumulative number of non-perseverative errors until the current round. Non-perseverative errors are the errors recorded when the user tries to figure out the new rule after a rule change. Given that there were three possible decision rules in total (based on color or shape or number), a user is supposed to figure out the correct rule no later than the third round after a rule change. Any error that occurred before the third round is considered as non-perseverative error.
-* **PER Errorsn:** The cumulative number of perseverative errors until the current round. Perseverative errors are when the user continues to apply the wrong rule despite the informative feedback provided by the system.
+* **PER Errors:** The cumulative number of perseverative errors until the current round. Perseverative errors are when the user continues to apply the wrong rule despite the informative feedback provided by the system.
 ### Source code + ML analysis:
 The code we used for ML analysis and the respective data, with the appropriate data splits for cross validation, in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** is available at (insert link).
 <link to: datasets used for ML analysis (balanced+unbalanced) + analysis code: feature extraction +modeling, dataset creation>
