@@ -24,10 +24,12 @@ The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/).
 
 ### 2. Facial:
 To capture behavioral changes during the task, we also recorded variations in the movement of the face, capturing a set of 68 facial keypoints and four corners for bounding box, with a webcam placed on top of the screen, at a frame rate of **insert rate**. To identify facial keypoints, we deployed the method presented by [Kazemi et. al.](http://openaccess.thecvf.com/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf) that uses a Regression Tree approach and can be applied in a real-time. 
+
 **Filename structure:** This data can be found in a folder named face_keypoints. Similar to the EEG dataset, there are 76 sessions and data from each session is stored in a separate folder. The name of these folders follow the same naming as explained above. The facial keypoints and the corners of the bounding box are stored in a numpy (.npz) file and are named "0_1_1.npz", indicating that the files belong to the rule type "0", round "1", and frame "1".
 
 ### 3. Fatigue self report:
 During each session, participants were told to report when they were having trouble to keep up with the task by pressing a button placed in front of them. The button could be pressed at any time during a game as many times as the participants felt appropriate.
+
 **Filename structure:** This data can be found in the folder named fatigue_self_report. The self reports are stored as csv files for each session and the name of these files follow the same structures as the eeg session folders and facial keypoints session folders. Each record in the csv indicate the level of fatigue as reported by the users during each round of the session.
 
 ### 4. User Performance:
