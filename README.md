@@ -7,19 +7,25 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 
 ## CogBeacon Data Collection Platform can be found @ [The WCST Interface](https://github.com/MikeMpapa/CogBeacon-WCST_interface/)
 
-## Dataset Detail
-
+## Dataset Details
+As mentioned above, the dataset consists of 4 folders; EEG, face_keypoints, fatigue_self_report, and user_performance. Below, we explain the contents of each folder and the way the data is organized.
+Please refer to our paper **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue (insert link to publication)**, for more details about the dataset and data collection methodology.
 ### EEG Data:
+##### File Name structure
+As mentioned above, there are 76 sessions and data from each session is stored in a separate folder. This folder is named "user_user-id_version-type". For example, the folder name "user_0_v_m" implies the folder belongs to user with ID 0 and version type "v_m". each of these folders consists of individual files for each round.
+
 The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/). The headset has four electrodes, two over the prefrontal lobe and two behind the ears. The data set consists of:
 * **Raw EEG :** at a sampling frequency of 220 Hz
 * **Absolute Frequency Bands (A):** gamma 32-100 Hz (*&gamma;*), beta 13-32 Hz (*&beta;*), alpha 8-13 Hz (*&alpha;*), theta 4-8 Hz (*&theta;*) and delta 0.5-4Hz (*&delta;*) at sampling frequency of 10 Hz. The absolute band power for a given frequency range is the logarithm of the sum of the Power Spectral Density of the EEG data over that frequency range.
 <p align="center">
-  <img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Screen%20Shot%202019-04-06%20at%207.35.59%20PM.png">
+  <img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Absolute%20Frequency%20Band.png">
  </p>
-
-2 - line description
-filename structures
-Signals : name frequency, formulas
+* **Relative Frequency Bands (R):** &gamma;, &beta;, &alpha;, &theta; and &delta; at sampling frequency of 10 Hz. The relative band powers are calculated by dividing the absolute linear-scale power in one band over the sum of the absolute linear-scale powers in all bands. 
+<p align="center">
+  <img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Relative%20Frequency%20Band.png">
+</p>
+* **Session Score for each Frequency band (S)**
+* **Signal Quality Indicator**
 
 ### Facial:
 2- line description- 68 keypoints + 4 corners for bounding box
