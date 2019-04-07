@@ -29,9 +29,11 @@ The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/).
 * **Raw EEG :** at a sampling frequency of 220 Hz
 * **Absolute Frequency Bands (A):** gamma 32-100 Hz (*&gamma;*), beta 13-32 Hz (*&beta;*), alpha 8-13 Hz (*&alpha;*), theta 4-8 Hz (*&theta;*) and delta 0.5-4Hz (*&delta;*) at sampling frequency of 10 Hz. The absolute band power for a given frequency range is the logarithm of the sum of the Power Spectral Density of the EEG data over that frequency range.
   <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Absolute%20Frequency%20Band.png"></p>
+  where f_low and f_high are the minimum and maximum frequencies of frequency band x and G is the FFT of the raw EEG signal g.
 * **Relative Frequency Bands (R):** &gamma;, &beta;, &alpha;, &theta; and &delta; at sampling frequency of 10 Hz. The relative band powers are calculated by dividing the absolute linear-scale power in one band over the sum of the absolute linear-scale powers in all bands. 
   <p align="center"><img src="https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/blob/master/Relative%20Frequency%20Band.png"></p>
-* **Session Score for each Frequency band (S):** A value computed by comparing the current value of a band power to its history in sampling frequency of 10 Hz.
+  where x is one of the five frequency bands.
+* **Session Score for each Frequency band (S):** A value computed by comparing the current value f a band power to its history in sampling frequency of 10 Hz. This value is mapped to a score etween 0 and 1 using a linear function that returns 0 if the current value is equal to or below the 10th percentile of the distribution of band powers, and returns 1 if it’s equal to or above the 90th percentile. Linear scoring between 0 and 1 is done for any value between these two percentiles.
 * **Signal Quality Indicator:** An integer value from 1 (optimal quality) to 4 (very bad quality).
 
 ### 2. Facial Keypoints:
@@ -45,7 +47,7 @@ During each session, participants were told to report when they were having trou
 **Filename structure:** This data can be found in the folder named fatigue_self_report. The self reports are stored as csv files for each session and the name of these files follow the same structures as the eeg session folders and facial keypoints session folders. Each record in the csv indicates how the total number of times a user has pressed the button at this specific point of the game. Each row of the csv corresponds to a game round. For example an a value of "3" in row 50 means that in that until the 50th round the user had pressed the button 3 times.
 
 ### 4. User Performance:
-For every round of every session, the system logs a set of metrics and scores related to user performance with respect to the task. For each session, user performance metrics are stored as a csv and each file follows he same naming convention as the other type of data, with an additional metric at the end of the filename indicating the total score of the user at the end of the game comuted by summing the individual user scores at each round. The formula for estimating user scores at each round can be found bellow. Each record of the csv consists of the following metrics:
+For every round of every session, the system logs a set of metrics and scores related to user performance with respect to the task. For each session, user performance metrics are stored as a csv and each file follows he same naming convention as the other type of data, with an additional metric at the end of the filename indicating the total score of the user at the end of the game computed by summing the individual user scores at each round. The formula for estimating user scores at each round can be found bellow. Each record of the csv consists of the following metrics:
 * **Round Number:** An integer value indicating the current round.
 * **Question number:** An integer value indicating the current question number under a specific rule type.
 * **Level:** An integer value indicating the current level of the test. It indicates number of possible choices offered by the system: 2,3,4 or 5.
