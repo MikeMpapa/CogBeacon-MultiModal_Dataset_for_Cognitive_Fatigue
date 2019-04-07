@@ -13,9 +13,7 @@ CogBeacon is a multi-modal dataset designed to target the effects of cognitive f
 The EEG Data was recorded using the [Muse EEG headset](https://choosemuse.com/). The headset has four electrodes, two over the prefrontal lobe and two behind the ears. The data set consists of:
 * **Raw EEG :** at a sampling frequency of 220 Hz
 * **Absolute Frequency Bands (A):** \gamma, \beta, \alpha, \theta and \delta at sampling frequency of 10 Hz. The absolute band power for a given frequency range is the logarithm of the sum of the Power Spectral Density of the EEG data over that frequency range.
-      \begin{equation}
-        xA = \log\sum_{i=f\_low}^{f\_high}|G(f_i)|^{2}
-    \end{equation}
+      $ xA = \log\sum_{i=f\_low}^{f\_high}|G(f_i)|^{2} $
 
 2 - line description
 filename structures
