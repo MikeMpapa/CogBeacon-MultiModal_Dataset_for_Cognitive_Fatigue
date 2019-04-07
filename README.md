@@ -52,5 +52,4 @@ For every round of every session, the system logs a set of metrics and scores re
 * **PER Errorsn:** The cumulative number of perseverative errors until the current round. Perseverative errors are when the user continues to apply the wrong rule despite the informative feedback provided by the system.
 ### Source code + ML analysis:
 The code we used for ML analysis and the respective data, with the appropriate data splits for cross validation, in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** is available at (insert link).
-<link to: datasets used for ML analysis (balanced+unbalanced)>
-<+analysis code: feature extraction +modeling, dataset creation>
+<link to: datasets used for ML analysis (balanced+unbalanced) + analysis code: feature extraction +modeling, dataset creation>
