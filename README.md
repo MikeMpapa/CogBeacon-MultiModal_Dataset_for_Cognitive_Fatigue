@@ -66,3 +66,11 @@ For every round of every session, the system logs a set of metrics and scores re
 ### Source code + ML analysis:
 The code we used for ML analysis and the respective data, with the appropriate data splits for cross validation, in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** is available at (insert link).
 <link to: datasets used for ML analysis (balanced+unbalanced) + analysis code: feature extraction +modeling, dataset creation>
+
+
+### Confidentiality & Data Sharing
+
+Our team has received permission by the Institutional Review Board (IRB) of the University of Texas at Arlington (UTA) in order to conduct these experiments and share the attached data. CogBeacons protocol’s ID is 2019-0253 and its title is “CogBeacon: Towards detecting cognitive fatigue”. Main contributors of this study are  Mr.Michalis Papakostas (PI, michalis.papakostas@mavs.uta.edu), Mr. Akilesh Rajavenkatanarayanan (CO-PI, akilesh.rajavenkatanarayanan@mavs.uta.edu), and  Dr. Fillia Makedon (Faculty Advisor,  makedon@uta.edu).  For additional information or questions about the confidentiality or data sharing protocol please feel free to contact directly the IRB office at UTA (erahelpdesk@uta.edu) or to the project personel. Available in the repo is a copy of the consent form that the participants had to sign.
+
+
+
