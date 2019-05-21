@@ -62,8 +62,7 @@ For every round of every session, the system logs a set of metrics and scores re
 * **NON-PER Errors:** The cumulative number of non-perseverative errors until the current round. Non-perseverative errors are the errors recorded when the user tries to figure out the new rule after a rule change. Given that there were three possible decision rules in total (based on color or shape or number), a user is supposed to figure out the correct rule no later than the third round after a rule change. Any error that occurred before the third round is considered as non-perseverative error.
 * **PER Errors:** The cumulative number of perseverative errors until the current round. Perseverative errors are when the user continues to apply the wrong rule despite the informative feedback provided by the system.
 ### Source code + ML analysis:
-The code we used for ML analysis and the respective data, with the appropriate data splits for cross validation, in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** is available at (insert link).
-<link to: datasets used for ML analysis (balanced+unbalanced) + analysis code: feature extraction +modeling, dataset creation>
+The code and the data (splited into 10-Folds for cross validation) that we used for the ML analysis in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** can be found [HERE] (https://www.dropbox.com/sh/1i49we8usl3bma0/AAC5O2peccM7tzMMiqjVRnZza?dl=0).
 
 
 ### Confidentiality & Data Sharing
