@@ -1,7 +1,21 @@
+
+## Paper & Citation
+Papakostas, Michalis, Akilesh Rajavenkatanarayanan, and Fillia Makedon. "CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue." Technologies 7.2 (2019): 46.
+
+@article{papakostas2019cogbeacon,
+  title={CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue},
+  author={Papakostas, Michalis and Rajavenkatanarayanan, Akilesh and Makedon, Fillia},
+  journal={Technologies},
+  volume={7},
+  number={2},
+  pages={46},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+
 # CogBeacon: A Multi-Modal Dataset for Modeling Cognitive Fatigue
 CogBeacon is a multi-modal dataset designed to target the effects of cognitive fatigue in human performance. The dataset consists of 76 sessions collected from 19 male and female users performing different versions of the Wisconsin Card Sorting Test (WCST); a popular cognitive test in experimental and clinical psychology designed to assess cognitive flexibility, reasoning and specific aspects of cognitive functioning. During each session we record and fully annotate, user's EEG functionality, facial keypoints, real-time self-reports on cognitive fatigue, as well as detailed information of the performance metrics achieved during the cognitive task (success rate, response time, number of errors etc.). Along with the dataset we provide a baseline Machine Learning analysis towards predicting cognitive fatigue and our multi-modal implementation of the WCST, to allow other researches expand or modify the functionalities of the CogBeacon data-collection framework. To our knowledge, this is the first multi-modal dataset specifically designed to assess cognitive fatigue.
-
-
 
 ## CogBeacon Data Collection Platform can be found @ [The WCST Interface](https://github.com/MikeMpapa/CogBeacon-WCST_interface/)
 
@@ -69,5 +83,19 @@ The code and the data (splited into 10-Folds for cross validation) that we used 
 
 Our team has received permission by the Institutional Review Board (IRB) of the University of Texas at Arlington (UTA) in order to conduct these experiments and share the attached data. CogBeacons protocol’s ID is 2019-0253 and its title is “CogBeacon: Towards detecting cognitive fatigue”. Main contributors of this study are  Mr.Michalis Papakostas (PI, michalis.papakostas@mavs.uta.edu), Mr. Akilesh Rajavenkatanarayanan (CO-PI, akilesh.rajavenkatanarayanan@mavs.uta.edu), and  Dr. Fillia Makedon (Faculty Advisor,  makedon@uta.edu).  For additional information or questions about the confidentiality or data sharing protocol please feel free to contact directly the IRB office at UTA (erahelpdesk@uta.edu) or to the project personnel. Available in the repo is a copy of the consent form that the participants had to sign.
 
+
+## Paper & Citation
+Papakostas, Michalis, Akilesh Rajavenkatanarayanan, and Fillia Makedon. "CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue." Technologies 7.2 (2019): 46.
+
+@article{papakostas2019cogbeacon,
+  title={CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue},
+  author={Papakostas, Michalis and Rajavenkatanarayanan, Akilesh and Makedon, Fillia},
+  journal={Technologies},
+  volume={7},
+  number={2},
+  pages={46},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
 
 
