@@ -78,6 +78,8 @@ For every round of every session, the system logs a set of metrics and scores re
 ### Source code + ML analysis:
 The code and the data (splited into 10-Folds for cross validation) that we used for the ML analysis in our papaer **CogBeacon: A Multi-Modal Dataset and Data-Collection Platform for Modeling Cognitive Fatigue** can be found [HERE](https://www.dropbox.com/sh/1i49we8usl3bma0/AAC5O2peccM7tzMMiqjVRnZza?dl=0).
 
+***Details about the EEG data codes used in python can be found*** [HERE](https://github.com/MikeMpapa/CogBeacon-MultiModal_Dataset_for_Cognitive_Fatigue/issues/1)
+
 
 ### Confidentiality & Data Sharing
 
